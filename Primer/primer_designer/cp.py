@@ -4,8 +4,8 @@ from datetime import datetime
 
 def my_cp(request):
 	ctx = {
-#		"current_date": timezone.localtime(timezone.now()),
-		"current_date": datetime.now(),
+		"current_date": timezone.localtime(timezone.now()),
+#		"current_date": datetime.now(),
 #		"current_date": timezone.now(),
 #		"current_date": datetime.now,
 #		"current_date": datetime.datetime.now,
