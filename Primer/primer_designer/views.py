@@ -3,13 +3,16 @@ from django.http import HttpResponse, HttpResponseRedirect
 
 from primer_designer.forms import PlasmidChoice
 from django.views.generic.edit import FormView
+from django.views.generic import TemplateView
 from django.views import View
 from django.urls import reverse
 from .forms import EnzymeChoice
 
 from .models import Enzymes
 
-
+class StartView(TemplateView):
+    template_name = "start_page.html"
+    
 class GetData(FormView):
     template_name = 'plasmids.html'
     form_class = PlasmidChoice
@@ -49,3 +52,4 @@ class ShowEnzymes(View):
         
     #for nacid in plasmid_sequence:
     #    if len[0,nacid 
+    

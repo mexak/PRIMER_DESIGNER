@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from primer_designer.views import GetData, ShowEnzymes
+from primer_designer.views import StartView, GetData, ShowEnzymes
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^start_page/', StartView.as_view(), name="start_page"),
     url(r'^input_data/', GetData.as_view(), name="input_data" ),
     url(r'^enzymes/', ShowEnzymes.as_view(), name="enzymes" ),
 
