@@ -6,8 +6,15 @@ In first step, user can choose a plasmid from database, into which insert will b
 
 ![](https://github.com/mexak/PRIMER_DESIGNER/blob/master/Primer/primer_designer/images/P_D_Plasmid.png)
 
-After chosing one of available plasmids, user enters sequence of the insert:
+After choosing one of available plasmids, user enters insert sequence:
 
+![](https://github.com/mexak/PRIMER_DESIGNER/blob/master/Primer/primer_designer/images/P_D_Insert.png)
+
+Another view shows restriction enzymes which restriction sites are present in plasmid and not present in insert sequence.
+
+![](https://github.com/mexak/PRIMER_DESIGNER/blob/master/Primer/primer_designer/images/P_D_Enzymes.png)
+
+In next step, after user chooses enzymes for cutting plasmid and insert, application will design primers for insert amplification.
 
 
 
