@@ -3,7 +3,13 @@
 {% block content %}
 <div class="jumbotron text-center">
 	<h1>Design primers for your cloning!</h1>
+    <form method="post" action="">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-warning">Start!</button></br>
 </div>
 
 
 {% endblock %}
+
+
+
