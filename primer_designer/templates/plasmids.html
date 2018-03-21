@@ -1,7 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h3>Design your primer</h3>
+<div class="jumbotron text-center">
+	<h1>Design primers for your cloning!</h1>
+
+</div>
 <form method="post" action="">
 {% csrf_token %}
 {{ form.as_p }}
