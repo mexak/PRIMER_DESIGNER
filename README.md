@@ -16,8 +16,8 @@ Another view shows restriction enzymes which restriction sites are present in pl
 
 In next step, after user chooses enzymes for cutting plasmid and insert, application will design primers for insert amplification.
 
-NOTE!
-IF YOU ARE NOT FAMILIAR WITH BIOTECHNOLOGY / CLONING
+## NOTE!
+## If you are not familiar with biotechnology / cloning,
 and just want too see if this application works:
 choose a plasmid from the list (i.e. pEGFP-C1)
 and enter cDNA sequence of IGF2BP1 protein:
