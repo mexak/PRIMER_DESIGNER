@@ -12,7 +12,7 @@ from .models import Enzymes
 
 class StartView(TemplateView):
     template_name = "start_page.html"
-    
+
 class GetData(FormView):
     template_name = 'plasmids.html'
     form_class = PlasmidChoice
